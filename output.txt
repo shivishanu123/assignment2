@@ -1,0 +1,18 @@
+OUTPUT
+./a.out file.txt
+Count = 20
+Total no of students(2n) = 20
+Student data:
+AAAAAAAAAABBBBBBBBBB
+The groups are:
+Group1 (5):
+ABABA
+Group2 (10):
+BABABABABA
+Group3 (5):
+BABAB
+
+Total no of basic operations:
+Decrease and conquer method and comparison and swapping
+
+
