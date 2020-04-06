@@ -12,23 +12,31 @@ NAME				              CONTRIBUTION
 
 INSTRUCTIONS TO RUN THE PROGRAM
 1.Provide the command line arguments in the order:
+provide the file name via command line argument
+the file consist of student data 
 
 
 DETAILS ON EXAMPLE INVOCATION AND OUTPUT
 INPUT:
-50 23 1
-OUTPUT:
-The Counterfeit coin is 23
-The Number of Count taken is 6
-log base 2(50) +1=6
-Time Complexity:O(Log base 2 N)
+a file contains student where 10 students from A section and 10 from B section.
+so the input from file will be in character form:
+AAAAAAAAAABBBBBBBBBB
+Here n =(no. of students)/2,
+m = n/2
+
+OUTPUT: 
+the output will be divided into three groups :
+group 1(size :(m=5))
+ABABA
+group 2(size :(2m = 10))
+BABABABABA
+group 3(size :(m = 5))
+BABAB
 
 CHALLENGES FACED
 1.To solve the problem using  O(1) extra space.
-2.Learning and understanding the command line arguments was a challenge.
-3.Dealing with backtracking.
-4.Providing efficient solution.
-5.Solving the errors.
+2.dealing with backtracking
+3. providing the efficient solution
 
 LEARNT FROM THIS ASSIGNMENT
 1.To write efficient code.
